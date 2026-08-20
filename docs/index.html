@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Solana Pulse — Ecosystem Report</title>
+<style>
+ :root { --bg:#0b0f14; --panel:#111820; --line:#1e2a36; --fg:#dbe4ee;
+         --dim:#7d8fa3; --acc:#4fd1c5; --warn:#f6c177; --crit:#f7768e; }
+ * { box-sizing:border-box; margin:0 }
+ body { background:var(--bg); color:var(--fg);
+        font:14px/1.5 -apple-system,'Segoe UI',Roboto,sans-serif; padding:24px; }
+ a { color:var(--acc); text-decoration:none }
+ header { display:flex; justify-content:space-between; align-items:baseline;
+          flex-wrap:wrap; gap:8px; margin-bottom:18px }
+ h1 { font-size:20px; font-weight:650 }
+ h2 { font-size:13px; text-transform:uppercase; letter-spacing:.08em;
+      color:var(--dim); margin-bottom:10px }
+ .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+         gap:12px; margin-bottom:14px }
+ .card { background:var(--panel); border:1px solid var(--line);
+         border-radius:10px; padding:14px 16px }
+ .metric .label { color:var(--dim); font-size:12px }
+ .metric .value { font-size:26px; font-weight:700; margin:2px 0 }
+ .metric .sub { color:var(--dim); font-size:12px }
+ .spark { width:100%; height:44px; color:var(--acc); margin-top:6px;
+          display:block }
+ .num { text-align:right; font-variant-numeric:tabular-nums }
+ .mono { font-family:ui-monospace,Menlo,monospace; font-size:12px }
+ table { width:100%; border-collapse:collapse }
+ td,th { padding:6px 8px; border-bottom:1px solid var(--line); text-align:left }
+ th { color:var(--dim); font-size:12px; text-transform:uppercase; letter-spacing:.06em }
+ .alerts { list-style:none; padding:0 }
+ .alert { padding:8px 10px; border-left:3px solid var(--warn);
+          background:#1a2130; border-radius:4px; margin-bottom:6px }
+ .alert.critical { border-color:var(--crit) }
+ .alert.info { border-color:var(--acc) }
+ .ok { color:var(--acc) }
+ .meta { color:var(--dim); font-size:12px }
+ .bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden }
+ .bar>i { display:block; height:100%; background:var(--acc) }
+ .cols { display:grid; grid-template-columns:1fr 1fr; gap:12px }
+ @media(max-width:760px){ .cols{grid-template-columns:1fr} body{padding:12px} }
+</style></head><body>
+<header>
+ <h1>◎ Solana Pulse</h1>
+ <div class="meta">Auto-updating ecosystem report · updated 2026-08-20 11:41 UTC ·
+ <a href="report.md">Markdown</a> · <a href="report.json">JSON</a> ·
+ <a href="https://github.com/ChaosAIVision/solana-pulse">GitHub</a></div>
+</header>
+
+<div class="grid">
+ <div class='card metric'><div class='label'>SOL Price</div><div class='value'>$87.83</div><div class='sub'>+13.4% 24h · MC $51.20B</div><span class='spark-wrap'><svg viewBox="0 0 260 44" preserveAspectRatio="none" class="spark"><polyline fill="none" stroke="currentColor" stroke-width="1.6" points="0.0,44.0 130.0,44.0 260.0,0.0"/></svg></span></div>
+ <div class='card metric'><div class='label'>TPS (non-vote)</div><div class='value'>1,999</div><div class='sub'>incl. votes 3,658 · slot 0.413s</div><span class='spark-wrap'><svg viewBox="0 0 260 44" preserveAspectRatio="none" class="spark"><polyline fill="none" stroke="currentColor" stroke-width="1.6" points="0.0,0.0 130.0,0.0 260.0,44.0"/></svg></span></div>
+ <div class='card metric'><div class='label'>DeFi TVL</div><div class='value'>$5.30B</div><div class='sub'>+0.0% 24h</div></div>
+ <div class='card metric'><div class='label'>Stablecoins</div><div class='value'>$15.70B</div><div class='sub'>on Solana</div></div>
+ <div class='card metric'><div class='label'>DEX Volume 24h</div><div class='value'>$3.01B</div><div class='sub'>7d trend +64%</div></div>
+ <div class='card metric'><div class='label'>Fees / REV 24h</div><div class='value'>$13.59M</div><div class='sub'>protocol fees</div></div>
+ <div class='card metric'><div class='label'>Validators</div><div class='value'>688</div><div class='sub'>8 delinquent (1.15%) · top-10 24.38% stake</div></div>
+ <div class='card metric'><div class='label'>Epoch</div><div class='value'>#1019</div><div class='sub'>59.8% complete</div></div>
+</div>
+
+<div class="cols">
+ <section class="card"><h2>Epoch progress</h2>
+  <div class="bar"><i style="width:59.8%"></i></div>
+  <p class="meta" style="margin-top:6px">Epoch #1019 · absolute slot 440,466,190</p>
+  <h2 style="margin-top:16px">Stake concentration (top 10)</h2>
+  <div class="bar"><i style="width:24%"></i></div>
+  <p class="meta" style="margin-top:6px">Total stake 435,241,268 SOL · avg commission 12.3%</p>
+  <h2 style="margin-top:16px">Supply</h2>
+  <p class="meta">Circulating 583,006,113 SOL · burned 0 SOL</p>
+ </section>
+ <section class="card"><h2>Top validators by stake</h2>
+  <table><tr><th>Vote account</th><th class="num">SOL</th><th class="num">Comm</th></tr><tr><td class='mono'>CcaHc2L43ZWjwCHART3o…</td><td class='num'>17,101,527</td><td class='num'>7%</td></tr><tr><td class='mono'>he1iusunGwqrNtafDtLd…</td><td class='num'>16,011,570</td><td class='num'>0%</td></tr><tr><td class='mono'>CatzoSMUkTRidT5DwBxA…</td><td class='num'>12,410,378</td><td class='num'>5%</td></tr><tr><td class='mono'>3N7s9zXMZ4QqvHQR15t5…</td><td class='num'>12,198,972</td><td class='num'>0%</td></tr><tr><td class='mono'>26pV97Ce83ZQ6Kz9XT4t…</td><td class='num'>9,188,631</td><td class='num'>7%</td></tr><tr><td class='mono'>51JBzSTU5rAM8gLAVQKg…</td><td class='num'>8,991,290</td><td class='num'>10%</td></tr><tr><td class='mono'>8GbwASqdpw4dVcwbWUxb…</td><td class='num'>8,308,413</td><td class='num'>0%</td></tr><tr><td class='mono'>9QU2QSxhb24FUX3Tu2Fp…</td><td class='num'>7,991,431</td><td class='num'>7%</td></tr><tr><td class='mono'>CvSb7wdQAFpHuSpTYTJn…</td><td class='num'>7,344,655</td><td class='num'>5%</td></tr><tr><td class='mono'>DumiCKHVqoCQKD8roLAp…</td><td class='num'>6,546,146</td><td class='num'>0%</td></tr></table>
+ </section>
+</div>
+
+<section class='card'><h2>⚠️ Anomalies</h2><ul class='alerts'><li class='alert info'><b>SOL price 24h</b> — SOL moved +13.4% in 24h</li></ul></section>
+
+<footer class="meta" style="margin-top:14px">
+ Sources: Solana JSON-RPC (getHealth · getSlot · getBlockTime · getEpochInfo ·
+ getRecentPerformanceSamples · getVoteAccounts · getSupply · getBalance ·
+ getSignaturesForAddress) · DeFiLlama · CoinGecko. Stdlib-only Python, no API keys.
+ Refresh: GitHub Actions cron, every 2h.
+</footer>
+</body></html>
