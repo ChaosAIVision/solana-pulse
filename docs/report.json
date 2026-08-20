@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T11:41:44.142050+00:00",
+ "generated_at": "2026-08-20T11:43:04.633887+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,10 +10,10 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 440466190,
-  "block_time": 1787226079,
-  "tps_incl_votes": 3658,
-  "tps_nonvote": 1999,
+  "slot": 440466393,
+  "block_time": 1787226162,
+  "tps_incl_votes": 3676,
+  "tps_nonvote": 2017,
   "avg_slot_time_s": 0.413,
   "samples": 20,
   "active": 688,
@@ -75,27 +75,27 @@
    }
   ],
   "epoch_number": 1019,
-  "epoch_progress": 0.597662037037037,
-  "circulating_sol": 583006113,
-  "total_supply_sol": 632513657,
+  "epoch_progress": 0.5981319444444444,
+  "circulating_sol": 583006112,
+  "total_supply_sol": 632513656,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 5303534203.604588,
+  "tvl_usd": 5303570607.467299,
   "tvl_change_1d_pct": null,
   "dex_vol_24h_usd": 3009837694.95,
   "dex_vol_change_7d_pct": 63.74,
   "fees_24h_usd": 13588582.379999997,
   "rev_24h_usd": 13588582.379999997,
   "stablecoin_supply_usd": 15698063738.685991,
-  "sol_usd": 87.83,
-  "change_24h_pct": 13.41201661053812,
-  "vol_24h_usd": 5729869296.663753,
-  "market_cap_usd": 51200705898.94558
+  "sol_usd": 87.95,
+  "change_24h_pct": 13.568254328880542,
+  "vol_24h_usd": 5781790846.471236,
+  "market_cap_usd": 51273950064.74154
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 3658,
-   "tps_nonvote": 1999,
+   "tps_incl_votes": 3676,
+   "tps_nonvote": 2017,
    "avg_slot_time_s": 0.413,
    "samples": 20
   },
@@ -161,24 +161,24 @@
   },
   "epoch": {
    "number": 1019,
-   "progress": 0.597662037037037,
-   "slots_elapsed": 258190,
+   "progress": 0.5981319444444444,
+   "slots_elapsed": 258393,
    "slots_in_epoch": 432000,
-   "absolute_slot": 440466190,
-   "block_height": 418516020,
-   "transaction_count": 539947440516
+   "absolute_slot": 440466393,
+   "block_height": 418516223,
+   "transaction_count": 539947763013
   },
   "supply": {
-   "total_sol": 632513657,
-   "circulating_sol": 583006113
+   "total_sol": 632513656,
+   "circulating_sol": 583006112
   }
  },
  "alerts": [
   {
    "metric": "SOL price 24h",
    "severity": "info",
-   "value": 13.41201661053812,
-   "message": "SOL moved +13.4% in 24h"
+   "value": 13.568254328880542,
+   "message": "SOL moved +13.6% in 24h"
   }
  ],
  "errors": []
