@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T07:07:18.365680+00:00",
+ "generated_at": "2026-08-21T08:58:13.732995+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,185 +10,177 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 440634361,
-  "block_time": 1787296016,
-  "tps_incl_votes": 3250,
-  "tps_nonvote": 1594,
-  "avg_slot_time_s": 0.414,
+  "slot": 440651796,
+  "block_time": 1787302673,
+  "tps_incl_votes": 4826,
+  "tps_nonvote": 2990,
+  "avg_slot_time_s": 0.367,
   "samples": 20,
-  "active": 689,
-  "delinquent": 7,
-  "delinquency_pct": 1.01,
-  "total_stake_sol": 435241268,
-  "top10_stake_share_pct": 24.38,
-  "avg_commission": 12.3,
+  "active": 680,
+  "delinquent": 14,
+  "delinquency_pct": 2.02,
+  "total_stake_sol": 433485334,
+  "top10_stake_share_pct": 24.33,
+  "avg_commission": 12.1,
   "top": [
    {
     "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-    "stake_sol": 17101527,
+    "stake_sol": 17066372,
     "commission": 7
    },
    {
     "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-    "stake_sol": 16011570,
+    "stake_sol": 16054078,
+    "commission": 0
+   },
+   {
+    "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
+    "stake_sol": 12175413,
     "commission": 0
    },
    {
     "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-    "stake_sol": 12410378,
+    "stake_sol": 11782032,
     "commission": 5
    },
    {
-    "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-    "stake_sol": 12198972,
-    "commission": 0
-   },
-   {
     "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-    "stake_sol": 9188631,
+    "stake_sol": 9178661,
     "commission": 7
    },
    {
     "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-    "stake_sol": 8991290,
+    "stake_sol": 8917577,
     "commission": 10
    },
    {
     "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-    "stake_sol": 8308413,
+    "stake_sol": 8402660,
     "commission": 0
    },
    {
     "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-    "stake_sol": 7991431,
+    "stake_sol": 7964352,
     "commission": 7
    },
    {
     "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-    "stake_sol": 7344655,
+    "stake_sol": 7357821,
     "commission": 5
    },
    {
     "vote_pk": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-    "stake_sol": 6546146,
+    "stake_sol": 6547243,
     "commission": 0
    }
   ],
-  "epoch_number": 1019,
-  "epoch_progress": 0.9869467592592592,
-  "circulating_sol": 583063085,
-  "total_supply_sol": 632512894,
+  "epoch_number": 1020,
+  "epoch_progress": 0.027305555555555555,
+  "circulating_sol": 583178486,
+  "total_supply_sol": 632640460,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 5379119247.088527,
+  "tvl_usd": 5387375355.743353,
   "tvl_change_1d_pct": null,
   "dex_vol_24h_usd": 2781215932.33,
   "dex_vol_change_7d_pct": -7.6,
   "fees_24h_usd": 11033466.079999996,
   "rev_24h_usd": 11033466.079999996,
-  "stablecoin_supply_usd": 15808199742.740646,
-  "sol_usd": 90.48,
-  "change_24h_pct": 5.3222674949378375,
-  "vol_24h_usd": 5052092370.814469,
-  "market_cap_usd": 52756558557.48434
+  "stablecoin_supply_usd": 15793678983.29151,
+  "sol_usd": 92.78,
+  "change_24h_pct": 5.8123498653068655,
+  "vol_24h_usd": 5373897413.1335945,
+  "market_cap_usd": 54103747757.96144
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 3250,
-   "tps_nonvote": 1594,
-   "avg_slot_time_s": 0.414,
+   "tps_incl_votes": 4826,
+   "tps_nonvote": 2990,
+   "avg_slot_time_s": 0.367,
    "samples": 20
   },
   "validators": {
-   "active": 689,
-   "delinquent": 7,
-   "delinquency_pct": 1.01,
-   "total_stake_sol": 435241268,
-   "top10_stake_share_pct": 24.38,
-   "avg_commission": 12.3,
+   "active": 680,
+   "delinquent": 14,
+   "delinquency_pct": 2.02,
+   "total_stake_sol": 433485334,
+   "top10_stake_share_pct": 24.33,
+   "avg_commission": 12.1,
    "top": [
     {
      "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-     "stake_sol": 17101527,
+     "stake_sol": 17066372,
      "commission": 7
     },
     {
      "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-     "stake_sol": 16011570,
+     "stake_sol": 16054078,
+     "commission": 0
+    },
+    {
+     "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
+     "stake_sol": 12175413,
      "commission": 0
     },
     {
      "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-     "stake_sol": 12410378,
+     "stake_sol": 11782032,
      "commission": 5
     },
     {
-     "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-     "stake_sol": 12198972,
-     "commission": 0
-    },
-    {
      "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-     "stake_sol": 9188631,
+     "stake_sol": 9178661,
      "commission": 7
     },
     {
      "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-     "stake_sol": 8991290,
+     "stake_sol": 8917577,
      "commission": 10
     },
     {
      "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-     "stake_sol": 8308413,
+     "stake_sol": 8402660,
      "commission": 0
     },
     {
      "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-     "stake_sol": 7991431,
+     "stake_sol": 7964352,
      "commission": 7
     },
     {
      "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-     "stake_sol": 7344655,
+     "stake_sol": 7357821,
      "commission": 5
     },
     {
      "vote_pk": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-     "stake_sol": 6546146,
+     "stake_sol": 6547243,
      "commission": 0
     }
    ]
   },
   "epoch": {
-   "number": 1019,
-   "progress": 0.9869467592592592,
-   "slots_elapsed": 426361,
+   "number": 1020,
+   "progress": 0.027305555555555555,
+   "slots_elapsed": 11796,
    "slots_in_epoch": 432000,
-   "absolute_slot": 440634361,
-   "block_height": 418684068,
-   "transaction_count": 540239889113
+   "absolute_slot": 440651796,
+   "block_height": 418701479,
+   "transaction_count": 540267241850
   },
   "supply": {
-   "total_sol": 632512894,
-   "circulating_sol": 583063085
+   "total_sol": 632640460,
+   "circulating_sol": 583178486
   }
  },
  "alerts": [
   {
-   "metric": "TVL",
-   "severity": "warning",
-   "value": 5379119247.088527,
-   "baseline_mean": 5299488299.4798,
-   "z_score": 3.39,
-   "message": "TVL spike (z=3.4, mean=5.299e+09)"
-  },
-  {
    "metric": "SOL price",
    "severity": "warning",
-   "value": 90.48,
-   "baseline_mean": 87.8431,
-   "z_score": 3.12,
-   "message": "SOL price spike (z=3.1, mean=87.84)"
+   "value": 92.78,
+   "baseline_mean": 88.0314,
+   "z_score": 4.48,
+   "message": "SOL price spike (z=4.5, mean=88.03)"
   }
  ],
  "errors": []
