@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T18:11:36.619727+00:00",
+ "generated_at": "2026-09-16T21:19:36.762050+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,11 +10,11 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 447587537,
-  "block_time": 1789582277,
-  "tps_incl_votes": 5683,
-  "tps_nonvote": 3579,
-  "avg_slot_time_s": 0.32,
+  "slot": 447622974,
+  "block_time": 1789593559,
+  "tps_incl_votes": 4584,
+  "tps_nonvote": 2461,
+  "avg_slot_time_s": 0.317,
   "samples": 20,
   "active": 677,
   "delinquent": 14,
@@ -75,28 +75,28 @@
    }
   ],
   "epoch_number": 1036,
-  "epoch_progress": 0.08226157407407407,
-  "circulating_sol": 587150528,
-  "total_supply_sol": 634205322,
+  "epoch_progress": 0.16429166666666667,
+  "circulating_sol": 587150250,
+  "total_supply_sol": 634205176,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 5706420553.854795,
+  "tvl_usd": 5729811157.461083,
   "tvl_change_1d_pct": null,
   "dex_vol_24h_usd": 2703297666.22,
   "dex_vol_change_7d_pct": 6.84,
   "fees_24h_usd": 14083156.459999997,
   "rev_24h_usd": 14083156.459999997,
-  "stablecoin_supply_usd": 15389454187.4703,
-  "sol_usd": 98.66,
-  "change_24h_pct": -1.2488700865533129,
-  "vol_24h_usd": 3638424126.4662986,
-  "market_cap_usd": 57816099842.51676
+  "stablecoin_supply_usd": 15395948466.745504,
+  "sol_usd": 98.43,
+  "change_24h_pct": 1.3943591425591964,
+  "vol_24h_usd": 3446742943.544352,
+  "market_cap_usd": 57788109581.41603
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 5683,
-   "tps_nonvote": 3579,
-   "avg_slot_time_s": 0.32,
+   "tps_incl_votes": 4584,
+   "tps_nonvote": 2461,
+   "avg_slot_time_s": 0.317,
    "samples": 20
   },
   "validators": {
@@ -161,27 +161,18 @@
   },
   "epoch": {
    "number": 1036,
-   "progress": 0.08226157407407407,
-   "slots_elapsed": 35537,
+   "progress": 0.16429166666666667,
+   "slots_elapsed": 70974,
    "slots_in_epoch": 432000,
-   "absolute_slot": 447587537,
-   "block_height": 425628955,
-   "transaction_count": 549134155442
+   "absolute_slot": 447622974,
+   "block_height": 425664320,
+   "transaction_count": 549190134454
   },
   "supply": {
-   "total_sol": 634205322,
-   "circulating_sol": 587150528
+   "total_sol": 634205176,
+   "circulating_sol": 587150250
   }
  },
- "alerts": [
-  {
-   "metric": "Non-vote TPS",
-   "severity": "warning",
-   "value": 3579,
-   "baseline_mean": 1673.9833,
-   "z_score": 5.13,
-   "message": "Non-vote TPS spike (z=5.1, mean=1,674)"
-  }
- ],
+ "alerts": [],
  "errors": []
 }
