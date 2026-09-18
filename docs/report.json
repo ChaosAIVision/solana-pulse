@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T00:19:09.804389+00:00",
+ "generated_at": "2026-09-18T07:24:05.442194+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,169 +10,178 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 447929541,
-  "block_time": 1789690725,
-  "tps_incl_votes": 4735,
-  "tps_nonvote": 2627,
-  "avg_slot_time_s": 0.32,
+  "slot": 448014869,
+  "block_time": 1789716219,
+  "tps_incl_votes": 4277,
+  "tps_nonvote": 1746,
+  "avg_slot_time_s": 0.266,
   "samples": 20,
   "active": 677,
-  "delinquent": 13,
-  "delinquency_pct": 1.88,
-  "total_stake_sol": 439761083,
-  "top10_stake_share_pct": 24.34,
-  "avg_commission": 12.8,
+  "delinquent": 11,
+  "delinquency_pct": 1.6,
+  "total_stake_sol": 439612408,
+  "top10_stake_share_pct": 24.27,
+  "avg_commission": 12.2,
   "top": [
    {
     "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-    "stake_sol": 17767428,
+    "stake_sol": 17815472,
     "commission": 7
    },
    {
     "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-    "stake_sol": 16352114,
+    "stake_sol": 15816148,
     "commission": 0
    },
    {
     "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-    "stake_sol": 12485145,
+    "stake_sol": 12510308,
     "commission": 0
    },
    {
     "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-    "stake_sol": 11383247,
+    "stake_sol": 11398202,
     "commission": 5
    },
    {
     "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-    "stake_sol": 9740877,
+    "stake_sol": 9784908,
     "commission": 0
    },
    {
     "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-    "stake_sol": 9256273,
+    "stake_sol": 9254526,
     "commission": 7
    },
    {
     "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-    "stake_sol": 9049051,
+    "stake_sol": 9077527,
     "commission": 10
    },
    {
     "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-    "stake_sol": 7386183,
+    "stake_sol": 7397869,
     "commission": 7
    },
    {
     "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-    "stake_sol": 7076306,
+    "stake_sol": 7085578,
     "commission": 5
    },
    {
     "vote_pk": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-    "stake_sol": 6558592,
+    "stake_sol": 6557940,
     "commission": 0
    }
   ],
-  "epoch_number": 1036,
-  "epoch_progress": 0.8739375,
-  "circulating_sol": 587211678,
-  "total_supply_sol": 634204105,
+  "epoch_number": 1037,
+  "epoch_progress": 0.07145601851851852,
+  "circulating_sol": 587297461,
+  "total_supply_sol": 634298685,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 5868376588.215923,
+  "tvl_usd": 5995243773.516056,
   "tvl_change_1d_pct": null,
-  "dex_vol_24h_usd": 2800249070.18,
-  "dex_vol_change_7d_pct": 3.59,
-  "fees_24h_usd": 14069098.05,
-  "rev_24h_usd": 14069098.05,
-  "stablecoin_supply_usd": 16316742719.257334,
-  "sol_usd": 101.33,
-  "change_24h_pct": 2.4940364969006605,
-  "vol_24h_usd": 3220680411.8090763,
-  "market_cap_usd": 59514637878.4672
+  "dex_vol_24h_usd": 2553904323.29,
+  "dex_vol_change_7d_pct": -8.77,
+  "fees_24h_usd": 13890506.100000001,
+  "rev_24h_usd": 13890506.100000001,
+  "stablecoin_supply_usd": 16179878050.911371,
+  "sol_usd": 105.77,
+  "change_24h_pct": 5.667006872999254,
+  "vol_24h_usd": 4192890202.372356,
+  "market_cap_usd": 62170088000.43835
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 4735,
-   "tps_nonvote": 2627,
-   "avg_slot_time_s": 0.32,
+   "tps_incl_votes": 4277,
+   "tps_nonvote": 1746,
+   "avg_slot_time_s": 0.266,
    "samples": 20
   },
   "validators": {
    "active": 677,
-   "delinquent": 13,
-   "delinquency_pct": 1.88,
-   "total_stake_sol": 439761083,
-   "top10_stake_share_pct": 24.34,
-   "avg_commission": 12.8,
+   "delinquent": 11,
+   "delinquency_pct": 1.6,
+   "total_stake_sol": 439612408,
+   "top10_stake_share_pct": 24.27,
+   "avg_commission": 12.2,
    "top": [
     {
      "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-     "stake_sol": 17767428,
+     "stake_sol": 17815472,
      "commission": 7
     },
     {
      "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-     "stake_sol": 16352114,
+     "stake_sol": 15816148,
      "commission": 0
     },
     {
      "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-     "stake_sol": 12485145,
+     "stake_sol": 12510308,
      "commission": 0
     },
     {
      "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-     "stake_sol": 11383247,
+     "stake_sol": 11398202,
      "commission": 5
     },
     {
      "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-     "stake_sol": 9740877,
+     "stake_sol": 9784908,
      "commission": 0
     },
     {
      "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-     "stake_sol": 9256273,
+     "stake_sol": 9254526,
      "commission": 7
     },
     {
      "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-     "stake_sol": 9049051,
+     "stake_sol": 9077527,
      "commission": 10
     },
     {
      "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-     "stake_sol": 7386183,
+     "stake_sol": 7397869,
      "commission": 7
     },
     {
      "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-     "stake_sol": 7076306,
+     "stake_sol": 7085578,
      "commission": 5
     },
     {
      "vote_pk": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-     "stake_sol": 6558592,
+     "stake_sol": 6557940,
      "commission": 0
     }
    ]
   },
   "epoch": {
-   "number": 1036,
-   "progress": 0.8739375,
-   "slots_elapsed": 377541,
+   "number": 1037,
+   "progress": 0.07145601851851852,
+   "slots_elapsed": 30869,
    "slots_in_epoch": 432000,
-   "absolute_slot": 447929541,
-   "block_height": 425970637,
-   "transaction_count": 549599558554
+   "absolute_slot": 448014869,
+   "block_height": 426055885,
+   "transaction_count": 549706266814
   },
   "supply": {
-   "total_sol": 634204105,
-   "circulating_sol": 587211678
+   "total_sol": 634298685,
+   "circulating_sol": 587297461
   }
  },
- "alerts": [],
+ "alerts": [
+  {
+   "metric": "Slot time",
+   "severity": "warning",
+   "value": 0.266,
+   "baseline_mean": 0.3169,
+   "z_score": -37.51,
+   "message": "Slot time drop (z=-37.5, mean=0.3169)"
+  }
+ ],
  "errors": []
 }
