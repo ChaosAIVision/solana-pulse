@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T20:54:02.075157+00:00",
+ "generated_at": "2026-09-19T00:20:45.793719+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,18 +10,18 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 448197048,
-  "block_time": 1789764824,
-  "tps_incl_votes": 4755,
-  "tps_nonvote": 2242,
-  "avg_slot_time_s": 0.268,
+  "slot": 448243528,
+  "block_time": 1789777229,
+  "tps_incl_votes": 4504,
+  "tps_nonvote": 1975,
+  "avg_slot_time_s": 0.267,
   "samples": 20,
-  "active": 676,
-  "delinquent": 12,
-  "delinquency_pct": 1.74,
+  "active": 678,
+  "delinquent": 10,
+  "delinquency_pct": 1.45,
   "total_stake_sol": 439612408,
   "top10_stake_share_pct": 24.27,
-  "avg_commission": 12.4,
+  "avg_commission": 12.5,
   "top": [
    {
     "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -75,37 +75,37 @@
    }
   ],
   "epoch_number": 1037,
-  "epoch_progress": 0.49316666666666664,
-  "circulating_sol": 587296840,
-  "total_supply_sol": 634298094,
+  "epoch_progress": 0.6007592592592592,
+  "circulating_sol": 587296690,
+  "total_supply_sol": 634297940,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 6268565420.955644,
+  "tvl_usd": 6288260883.444036,
   "tvl_change_1d_pct": null,
   "dex_vol_24h_usd": 2592123183.29,
   "dex_vol_change_7d_pct": -7.41,
   "fees_24h_usd": 14675830.100000001,
   "rev_24h_usd": 14675830.100000001,
-  "stablecoin_supply_usd": 15768134944.384424,
-  "sol_usd": 113.53,
-  "change_24h_pct": 12.292174864906492,
-  "vol_24h_usd": 6581998403.020679,
-  "market_cap_usd": 66677707332.50658
+  "stablecoin_supply_usd": 15492981191.640564,
+  "sol_usd": 113.01,
+  "change_24h_pct": 11.65381558219852,
+  "vol_24h_usd": 6683084198.898265,
+  "market_cap_usd": 66352107330.43236
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 4755,
-   "tps_nonvote": 2242,
-   "avg_slot_time_s": 0.268,
+   "tps_incl_votes": 4504,
+   "tps_nonvote": 1975,
+   "avg_slot_time_s": 0.267,
    "samples": 20
   },
   "validators": {
-   "active": 676,
-   "delinquent": 12,
-   "delinquency_pct": 1.74,
+   "active": 678,
+   "delinquent": 10,
+   "delinquency_pct": 1.45,
    "total_stake_sol": 439612408,
    "top10_stake_share_pct": 24.27,
-   "avg_commission": 12.4,
+   "avg_commission": 12.5,
    "top": [
     {
      "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -161,48 +161,48 @@
   },
   "epoch": {
    "number": 1037,
-   "progress": 0.49316666666666664,
-   "slots_elapsed": 213048,
+   "progress": 0.6007592592592592,
+   "slots_elapsed": 259528,
    "slots_in_epoch": 432000,
-   "absolute_slot": 448197048,
-   "block_height": 426237967,
-   "transaction_count": 549932446340
+   "absolute_slot": 448243528,
+   "block_height": 426284411,
+   "transaction_count": 549991647008
   },
   "supply": {
-   "total_sol": 634298094,
-   "circulating_sol": 587296840
+   "total_sol": 634297940,
+   "circulating_sol": 587296690
   }
  },
  "alerts": [
   {
    "metric": "Slot time",
    "severity": "warning",
-   "value": 0.268,
-   "baseline_mean": 0.3145,
-   "z_score": -4.21,
-   "message": "Slot time drop (z=-4.2, mean=0.3145)"
+   "value": 0.267,
+   "baseline_mean": 0.3136,
+   "z_score": -3.72,
+   "message": "Slot time drop (z=-3.7, mean=0.3136)"
   },
   {
    "metric": "TVL",
    "severity": "warning",
-   "value": 6268565420.955644,
-   "baseline_mean": 5873894737.687,
-   "z_score": 4.87,
-   "message": "TVL spike (z=4.9, mean=5.874e+09)"
+   "value": 6288260883.444036,
+   "baseline_mean": 5879624798.494,
+   "z_score": 4.28,
+   "message": "TVL spike (z=4.3, mean=5.88e+09)"
   },
   {
    "metric": "SOL price",
    "severity": "warning",
-   "value": 113.53,
-   "baseline_mean": 101.9108,
-   "z_score": 4.27,
-   "message": "SOL price spike (z=4.3, mean=101.9)"
+   "value": 113.01,
+   "baseline_mean": 102.0403,
+   "z_score": 3.58,
+   "message": "SOL price spike (z=3.6, mean=102)"
   },
   {
    "metric": "SOL price 24h",
    "severity": "info",
-   "value": 12.292174864906492,
-   "message": "SOL moved +12.3% in 24h"
+   "value": 11.65381558219852,
+   "message": "SOL moved +11.7% in 24h"
   }
  ],
  "errors": []
