@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T04:57:18.810189+00:00",
+ "generated_at": "2026-09-26T11:24:17.179734+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,167 +10,167 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 450573448,
-  "block_time": 1790398622,
-  "tps_incl_votes": 4998,
-  "tps_nonvote": 2502,
-  "avg_slot_time_s": 0.269,
+  "slot": 450660183,
+  "block_time": 1790421841,
+  "tps_incl_votes": 4184,
+  "tps_nonvote": 1658,
+  "avg_slot_time_s": 0.267,
   "samples": 20,
-  "active": 675,
-  "delinquent": 10,
-  "delinquency_pct": 1.46,
-  "total_stake_sol": 440637196,
-  "top10_stake_share_pct": 24.4,
+  "active": 676,
+  "delinquent": 11,
+  "delinquency_pct": 1.6,
+  "total_stake_sol": 437542654,
+  "top10_stake_share_pct": 24.61,
   "avg_commission": 13.0,
   "top": [
    {
     "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-    "stake_sol": 17819007,
+    "stake_sol": 17860284,
     "commission": 7
    },
    {
     "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-    "stake_sol": 15817079,
+    "stake_sol": 15799204,
     "commission": 0
    },
    {
     "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-    "stake_sol": 12387904,
+    "stake_sol": 12343056,
     "commission": 0
    },
    {
     "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-    "stake_sol": 11274982,
+    "stake_sol": 11222561,
     "commission": 5
    },
    {
     "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-    "stake_sol": 10595499,
+    "stake_sol": 10836562,
     "commission": 0
    },
    {
     "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-    "stake_sol": 9221893,
+    "stake_sol": 9237102,
     "commission": 7
    },
    {
     "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-    "stake_sol": 9163088,
+    "stake_sol": 9182742,
     "commission": 10
    },
    {
     "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-    "stake_sol": 7599959,
+    "stake_sol": 7606181,
     "commission": 7
    },
    {
     "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-    "stake_sol": 7091911,
+    "stake_sol": 7093311,
     "commission": 5
    },
    {
     "vote_pk": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-    "stake_sol": 6557887,
+    "stake_sol": 6506505,
     "commission": 0
    }
   ],
-  "epoch_number": 1042,
-  "epoch_progress": 0.9940925925925926,
-  "circulating_sol": 587641673,
-  "total_supply_sol": 634685432,
+  "epoch_number": 1043,
+  "epoch_progress": 0.19486805555555556,
+  "circulating_sol": 587712809,
+  "total_supply_sol": 634764013,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 6616853129.580223,
+  "tvl_usd": 6582298151.075482,
   "tvl_change_1d_pct": null,
   "dex_vol_24h_usd": 2800185915.63,
   "dex_vol_change_7d_pct": 14.26,
-  "fees_24h_usd": 14942774.469999999,
-  "rev_24h_usd": 14942774.469999999,
-  "stablecoin_supply_usd": 17739343959.063442,
-  "sol_usd": 120.65,
-  "change_24h_pct": 3.19323389594864,
-  "vol_24h_usd": 6204929210.80061,
-  "market_cap_usd": 70897257513.06094
+  "fees_24h_usd": 15474961.469999999,
+  "rev_24h_usd": 15474961.469999999,
+  "stablecoin_supply_usd": 17686716781.91372,
+  "sol_usd": 120.57,
+  "change_24h_pct": -0.06861304658947866,
+  "vol_24h_usd": 5329637887.832285,
+  "market_cap_usd": 70863029444.87524
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 4998,
-   "tps_nonvote": 2502,
-   "avg_slot_time_s": 0.269,
+   "tps_incl_votes": 4184,
+   "tps_nonvote": 1658,
+   "avg_slot_time_s": 0.267,
    "samples": 20
   },
   "validators": {
-   "active": 675,
-   "delinquent": 10,
-   "delinquency_pct": 1.46,
-   "total_stake_sol": 440637196,
-   "top10_stake_share_pct": 24.4,
+   "active": 676,
+   "delinquent": 11,
+   "delinquency_pct": 1.6,
+   "total_stake_sol": 437542654,
+   "top10_stake_share_pct": 24.61,
    "avg_commission": 13.0,
    "top": [
     {
      "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-     "stake_sol": 17819007,
+     "stake_sol": 17860284,
      "commission": 7
     },
     {
      "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-     "stake_sol": 15817079,
+     "stake_sol": 15799204,
      "commission": 0
     },
     {
      "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-     "stake_sol": 12387904,
+     "stake_sol": 12343056,
      "commission": 0
     },
     {
      "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-     "stake_sol": 11274982,
+     "stake_sol": 11222561,
      "commission": 5
     },
     {
      "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-     "stake_sol": 10595499,
+     "stake_sol": 10836562,
      "commission": 0
     },
     {
      "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-     "stake_sol": 9221893,
+     "stake_sol": 9237102,
      "commission": 7
     },
     {
      "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-     "stake_sol": 9163088,
+     "stake_sol": 9182742,
      "commission": 10
     },
     {
      "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-     "stake_sol": 7599959,
+     "stake_sol": 7606181,
      "commission": 7
     },
     {
      "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-     "stake_sol": 7091911,
+     "stake_sol": 7093311,
      "commission": 5
     },
     {
      "vote_pk": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-     "stake_sol": 6557887,
+     "stake_sol": 6506505,
      "commission": 0
     }
    ]
   },
   "epoch": {
-   "number": 1042,
-   "progress": 0.9940925925925926,
-   "slots_elapsed": 429448,
+   "number": 1043,
+   "progress": 0.19486805555555556,
+   "slots_elapsed": 84183,
    "slots_in_epoch": 432000,
-   "absolute_slot": 450573448,
-   "block_height": 428613247,
-   "transaction_count": 552754922748
+   "absolute_slot": 450660183,
+   "block_height": 428699956,
+   "transaction_count": 552856774353
   },
   "supply": {
-   "total_sol": 634685432,
-   "circulating_sol": 587641673
+   "total_sol": 634764013,
+   "circulating_sol": 587712809
   }
  },
  "alerts": [],
