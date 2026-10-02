@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T19:17:41.313274+00:00",
+ "generated_at": "2026-10-02T23:46:23.252690+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,167 +10,167 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 452701896,
-  "block_time": 1790968646,
-  "tps_incl_votes": 4883,
-  "tps_nonvote": 2405,
-  "avg_slot_time_s": 0.27,
+  "slot": 452762030,
+  "block_time": 1790984766,
+  "tps_incl_votes": 4333,
+  "tps_nonvote": 1825,
+  "avg_slot_time_s": 0.267,
   "samples": 20,
-  "active": 672,
-  "delinquent": 12,
-  "delinquency_pct": 1.75,
-  "total_stake_sol": 440810473,
-  "top10_stake_share_pct": 24.61,
-  "avg_commission": 13.4,
+  "active": 671,
+  "delinquent": 13,
+  "delinquency_pct": 1.9,
+  "total_stake_sol": 442013190,
+  "top10_stake_share_pct": 24.53,
+  "avg_commission": 13.3,
   "top": [
    {
     "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-    "stake_sol": 17839408,
+    "stake_sol": 17923954,
     "commission": 7
    },
    {
     "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-    "stake_sol": 15905145,
+    "stake_sol": 15898894,
     "commission": 0
    },
    {
     "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-    "stake_sol": 12328203,
+    "stake_sol": 12338401,
     "commission": 0
    },
    {
     "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-    "stake_sol": 11357265,
+    "stake_sol": 11304108,
     "commission": 0
    },
    {
     "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-    "stake_sol": 11209121,
+    "stake_sol": 11133145,
     "commission": 5
    },
    {
     "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-    "stake_sol": 9267704,
+    "stake_sol": 9247324,
     "commission": 7
    },
    {
     "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-    "stake_sol": 9246451,
+    "stake_sol": 9244926,
     "commission": 10
    },
    {
     "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-    "stake_sol": 7601711,
+    "stake_sol": 7605153,
     "commission": 7
    },
    {
     "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-    "stake_sol": 7063975,
+    "stake_sol": 7060361,
     "commission": 5
    },
    {
     "vote_pk": "3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf",
-    "stake_sol": 6682305,
+    "stake_sol": 6684213,
     "commission": 0
    }
   ],
-  "epoch_number": 1047,
-  "epoch_progress": 0.9210555555555555,
-  "circulating_sol": 588074926,
-  "total_supply_sol": 635072588,
+  "epoch_number": 1048,
+  "epoch_progress": 0.06025462962962963,
+  "circulating_sol": 588146084,
+  "total_supply_sol": 635151059,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 6684031709.41901,
+  "tvl_usd": 6586977076.121944,
   "tvl_change_1d_pct": null,
   "dex_vol_24h_usd": 2488460102.88,
   "dex_vol_change_7d_pct": -3.17,
   "fees_24h_usd": 17134431.63,
   "rev_24h_usd": 17134431.63,
-  "stablecoin_supply_usd": 16689400894.185707,
-  "sol_usd": 117.83,
-  "change_24h_pct": -0.5281188523502378,
-  "vol_24h_usd": 4694117678.479033,
-  "market_cap_usd": 69280115668.44023
+  "stablecoin_supply_usd": 16694564672.083023,
+  "sol_usd": 118.67,
+  "change_24h_pct": 0.3189978160047203,
+  "vol_24h_usd": 4646835025.854391,
+  "market_cap_usd": 69792574131.85223
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 4883,
-   "tps_nonvote": 2405,
-   "avg_slot_time_s": 0.27,
+   "tps_incl_votes": 4333,
+   "tps_nonvote": 1825,
+   "avg_slot_time_s": 0.267,
    "samples": 20
   },
   "validators": {
-   "active": 672,
-   "delinquent": 12,
-   "delinquency_pct": 1.75,
-   "total_stake_sol": 440810473,
-   "top10_stake_share_pct": 24.61,
-   "avg_commission": 13.4,
+   "active": 671,
+   "delinquent": 13,
+   "delinquency_pct": 1.9,
+   "total_stake_sol": 442013190,
+   "top10_stake_share_pct": 24.53,
+   "avg_commission": 13.3,
    "top": [
     {
      "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-     "stake_sol": 17839408,
+     "stake_sol": 17923954,
      "commission": 7
     },
     {
      "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-     "stake_sol": 15905145,
+     "stake_sol": 15898894,
      "commission": 0
     },
     {
      "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-     "stake_sol": 12328203,
+     "stake_sol": 12338401,
      "commission": 0
     },
     {
      "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-     "stake_sol": 11357265,
+     "stake_sol": 11304108,
      "commission": 0
     },
     {
      "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-     "stake_sol": 11209121,
+     "stake_sol": 11133145,
      "commission": 5
     },
     {
      "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-     "stake_sol": 9267704,
+     "stake_sol": 9247324,
      "commission": 7
     },
     {
      "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-     "stake_sol": 9246451,
+     "stake_sol": 9244926,
      "commission": 10
     },
     {
      "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-     "stake_sol": 7601711,
+     "stake_sol": 7605153,
      "commission": 7
     },
     {
      "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-     "stake_sol": 7063975,
+     "stake_sol": 7060361,
      "commission": 5
     },
     {
      "vote_pk": "3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf",
-     "stake_sol": 6682305,
+     "stake_sol": 6684213,
      "commission": 0
     }
    ]
   },
   "epoch": {
-   "number": 1047,
-   "progress": 0.9210555555555555,
-   "slots_elapsed": 397896,
+   "number": 1048,
+   "progress": 0.06025462962962963,
+   "slots_elapsed": 26030,
    "slots_in_epoch": 432000,
-   "absolute_slot": 452701896,
-   "block_height": 430740544,
-   "transaction_count": 555319430816
+   "absolute_slot": 452762030,
+   "block_height": 430800658,
+   "transaction_count": 555396959894
   },
   "supply": {
-   "total_sol": 635072588,
-   "circulating_sol": 588074926
+   "total_sol": 635151059,
+   "circulating_sol": 588146084
   }
  },
  "alerts": [],
