@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T18:03:09.857100+00:00",
+ "generated_at": "2026-10-16T21:06:59.669435+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,11 +10,11 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 457730214,
-  "block_time": 1792173772,
-  "tps_incl_votes": 5520,
-  "tps_nonvote": 2465,
-  "avg_slot_time_s": 0.219,
+  "slot": 457781194,
+  "block_time": 1792184802,
+  "tps_incl_votes": 5444,
+  "tps_nonvote": 2336,
+  "avg_slot_time_s": 0.215,
   "samples": 20,
   "active": 671,
   "delinquent": 9,
@@ -75,28 +75,28 @@
    }
   ],
   "epoch_number": 1059,
-  "epoch_progress": 0.5606805555555555,
-  "circulating_sol": 589324001,
-  "total_supply_sol": 635905729,
+  "epoch_progress": 0.6786898148148148,
+  "circulating_sol": 589323841,
+  "total_supply_sol": 635905569,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 5957965649.290684,
+  "tvl_usd": 5928684137.734822,
   "tvl_change_1d_pct": null,
   "dex_vol_24h_usd": 2539283878.03,
   "dex_vol_change_7d_pct": 19.84,
   "fees_24h_usd": 12783602.889999997,
   "rev_24h_usd": 12783602.889999997,
-  "stablecoin_supply_usd": 15588039969.179527,
-  "sol_usd": 103.65,
-  "change_24h_pct": -1.8123472337670337,
-  "vol_24h_usd": 2734434958.5491166,
-  "market_cap_usd": 61082940308.31443
+  "stablecoin_supply_usd": 15663031144.117708,
+  "sol_usd": 103.92,
+  "change_24h_pct": -1.5938279273080664,
+  "vol_24h_usd": 2955246095.6409574,
+  "market_cap_usd": 61242979065.149055
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 5520,
-   "tps_nonvote": 2465,
-   "avg_slot_time_s": 0.219,
+   "tps_incl_votes": 5444,
+   "tps_nonvote": 2336,
+   "avg_slot_time_s": 0.215,
    "samples": 20
   },
   "validators": {
@@ -161,16 +161,16 @@
   },
   "epoch": {
    "number": 1059,
-   "progress": 0.5606805555555555,
-   "slots_elapsed": 242214,
+   "progress": 0.6786898148148148,
+   "slots_elapsed": 293194,
    "slots_in_epoch": 432000,
-   "absolute_slot": 457730214,
-   "block_height": 435766009,
-   "transaction_count": 560997546983
+   "absolute_slot": 457781194,
+   "block_height": 435816975,
+   "transaction_count": 561059097418
   },
   "supply": {
-   "total_sol": 635905729,
-   "circulating_sol": 589324001
+   "total_sol": 635905569,
+   "circulating_sol": 589323841
   }
  },
  "alerts": [],
