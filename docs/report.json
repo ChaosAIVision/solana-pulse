@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:18:25.471930+00:00",
+ "generated_at": "2026-10-22T04:43:37.581115+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,18 +10,18 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 459811991,
-  "block_time": 1792624697,
-  "tps_incl_votes": 2851,
-  "tps_nonvote": 2851,
-  "avg_slot_time_s": 0.214,
+  "slot": 459903807,
+  "block_time": 1792644206,
+  "tps_incl_votes": 1641,
+  "tps_nonvote": 1641,
+  "avg_slot_time_s": 0.212,
   "samples": 20,
   "active": 668,
   "delinquent": 9,
   "delinquency_pct": 1.33,
   "total_stake_sol": 438868046,
   "top10_stake_share_pct": 24.35,
-  "avg_commission": 13.3,
+  "avg_commission": 13.6,
   "top": [
    {
     "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -75,28 +75,28 @@
    }
   ],
   "epoch_number": 1064,
-  "epoch_progress": 0.3796087962962963,
-  "circulating_sol": 589604691,
-  "total_supply_sol": 636212721,
+  "epoch_progress": 0.5921458333333334,
+  "circulating_sol": 589604593,
+  "total_supply_sol": 636212623,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 6052744380.896511,
+  "tvl_usd": 5980185266.616514,
   "tvl_change_1d_pct": null,
-  "dex_vol_24h_usd": 2437800216.24,
-  "dex_vol_change_7d_pct": 33.68,
-  "fees_24h_usd": 13174208.400000002,
-  "rev_24h_usd": 13174208.400000002,
-  "stablecoin_supply_usd": 15820625097.04502,
-  "sol_usd": 107.24,
-  "change_24h_pct": 0.7804331848706779,
-  "vol_24h_usd": 2559892591.177234,
-  "market_cap_usd": 63231088122.398315
+  "dex_vol_24h_usd": 2278262309.37,
+  "dex_vol_change_7d_pct": -6.54,
+  "fees_24h_usd": 11871490.659999996,
+  "rev_24h_usd": 11871490.659999996,
+  "stablecoin_supply_usd": 15857165932.435863,
+  "sol_usd": 105.26,
+  "change_24h_pct": -0.36355649094428394,
+  "vol_24h_usd": 2704438270.9206147,
+  "market_cap_usd": 62052660231.65912
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 2851,
-   "tps_nonvote": 2851,
-   "avg_slot_time_s": 0.214,
+   "tps_incl_votes": 1641,
+   "tps_nonvote": 1641,
+   "avg_slot_time_s": 0.212,
    "samples": 20
   },
   "validators": {
@@ -105,7 +105,7 @@
    "delinquency_pct": 1.33,
    "total_stake_sol": 438868046,
    "top10_stake_share_pct": 24.35,
-   "avg_commission": 13.3,
+   "avg_commission": 13.6,
    "top": [
     {
      "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -161,16 +161,16 @@
   },
   "epoch": {
    "number": 1064,
-   "progress": 0.3796087962962963,
-   "slots_elapsed": 163991,
+   "progress": 0.5921458333333334,
+   "slots_elapsed": 255807,
    "slots_in_epoch": 432000,
-   "absolute_slot": 459811991,
-   "block_height": 437846040,
-   "transaction_count": 563125042712
+   "absolute_slot": 459903807,
+   "block_height": 437937726,
+   "transaction_count": 563161623460
   },
   "supply": {
-   "total_sol": 636212721,
-   "circulating_sol": 589604691
+   "total_sol": 636212623,
+   "circulating_sol": 589604593
   }
  },
  "alerts": [],
