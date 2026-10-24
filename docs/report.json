@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T15:56:25.506043+00:00",
+ "generated_at": "2026-10-24T18:47:08.927773+00:00",
  "sources": {
   "rpc": "https://api.mainnet-beta.solana.com",
   "offchain": [
@@ -10,167 +10,167 @@
  },
  "summary": {
   "health": "ok",
-  "slot": 460909043,
-  "block_time": 1792857372,
-  "tps_incl_votes": 1970,
-  "tps_nonvote": 1970,
-  "avg_slot_time_s": 0.212,
+  "slot": 460957438,
+  "block_time": 1792867622,
+  "tps_incl_votes": 1904,
+  "tps_nonvote": 1904,
+  "avg_slot_time_s": 0.211,
   "samples": 20,
-  "active": 664,
-  "delinquent": 14,
-  "delinquency_pct": 2.06,
-  "total_stake_sol": 437116782,
-  "top10_stake_share_pct": 24.44,
-  "avg_commission": 13.6,
+  "active": 665,
+  "delinquent": 25,
+  "delinquency_pct": 3.62,
+  "total_stake_sol": 437191006,
+  "top10_stake_share_pct": 24.58,
+  "avg_commission": 13.4,
   "top": [
    {
     "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-    "stake_sol": 17096230,
+    "stake_sol": 17099113,
     "commission": 7
    },
    {
     "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-    "stake_sol": 16022778,
+    "stake_sol": 16646121,
     "commission": 0
    },
    {
     "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-    "stake_sol": 12572396,
+    "stake_sol": 12588035,
     "commission": 0
    },
    {
     "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-    "stake_sol": 10882511,
+    "stake_sol": 10881430,
     "commission": 0
    },
    {
     "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-    "stake_sol": 9724046,
+    "stake_sol": 9721918,
     "commission": 5
    },
    {
     "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-    "stake_sol": 9478407,
+    "stake_sol": 9483244,
     "commission": 10
    },
    {
     "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-    "stake_sol": 9213418,
+    "stake_sol": 9216837,
     "commission": 7
    },
    {
     "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-    "stake_sol": 7782539,
+    "stake_sol": 7785036,
     "commission": 7
    },
    {
     "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-    "stake_sol": 7037301,
+    "stake_sol": 7038249,
     "commission": 5
    },
    {
     "vote_pk": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-    "stake_sol": 7003145,
+    "stake_sol": 7006653,
     "commission": 0
    }
   ],
-  "epoch_number": 1066,
-  "epoch_progress": 0.9190810185185185,
-  "circulating_sol": 589708682,
-  "total_supply_sol": 636334783,
+  "epoch_number": 1067,
+  "epoch_progress": 0.03110648148148148,
+  "circulating_sol": 589764579,
+  "total_supply_sol": 636396218,
   "burned_sol": 0,
   "jupiter_sigs_last_window": 1000,
-  "tvl_usd": 5755487126.789361,
+  "tvl_usd": 5715900943.645678,
   "tvl_change_1d_pct": null,
   "dex_vol_24h_usd": 1997070440.3700001,
   "dex_vol_change_7d_pct": -2.07,
   "fees_24h_usd": 10552167.090000004,
   "rev_24h_usd": 10552167.090000004,
-  "stablecoin_supply_usd": 15535116776.321815,
-  "sol_usd": 99.41,
-  "change_24h_pct": -4.870658944148759,
-  "vol_24h_usd": 2463692274.606532,
-  "market_cap_usd": 58624380078.56009
+  "stablecoin_supply_usd": 15522387768.577045,
+  "sol_usd": 100.97,
+  "change_24h_pct": -2.9521143898272486,
+  "vol_24h_usd": 2596456346.6311,
+  "market_cap_usd": 59553084546.53928
  },
  "detail": {
   "performance": {
-   "tps_incl_votes": 1970,
-   "tps_nonvote": 1970,
-   "avg_slot_time_s": 0.212,
+   "tps_incl_votes": 1904,
+   "tps_nonvote": 1904,
+   "avg_slot_time_s": 0.211,
    "samples": 20
   },
   "validators": {
-   "active": 664,
-   "delinquent": 14,
-   "delinquency_pct": 2.06,
-   "total_stake_sol": 437116782,
-   "top10_stake_share_pct": 24.44,
-   "avg_commission": 13.6,
+   "active": 665,
+   "delinquent": 25,
+   "delinquency_pct": 3.62,
+   "total_stake_sol": 437191006,
+   "top10_stake_share_pct": 24.58,
+   "avg_commission": 13.4,
    "top": [
     {
      "vote_pk": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-     "stake_sol": 17096230,
+     "stake_sol": 17099113,
      "commission": 7
     },
     {
      "vote_pk": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-     "stake_sol": 16022778,
+     "stake_sol": 16646121,
      "commission": 0
     },
     {
      "vote_pk": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-     "stake_sol": 12572396,
+     "stake_sol": 12588035,
      "commission": 0
     },
     {
      "vote_pk": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-     "stake_sol": 10882511,
+     "stake_sol": 10881430,
      "commission": 0
     },
     {
      "vote_pk": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-     "stake_sol": 9724046,
+     "stake_sol": 9721918,
      "commission": 5
     },
     {
      "vote_pk": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-     "stake_sol": 9478407,
+     "stake_sol": 9483244,
      "commission": 10
     },
     {
      "vote_pk": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-     "stake_sol": 9213418,
+     "stake_sol": 9216837,
      "commission": 7
     },
     {
      "vote_pk": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-     "stake_sol": 7782539,
+     "stake_sol": 7785036,
      "commission": 7
     },
     {
      "vote_pk": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-     "stake_sol": 7037301,
+     "stake_sol": 7038249,
      "commission": 5
     },
     {
      "vote_pk": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-     "stake_sol": 7003145,
+     "stake_sol": 7006653,
      "commission": 0
     }
    ]
   },
   "epoch": {
-   "number": 1066,
-   "progress": 0.9190810185185185,
-   "slots_elapsed": 397043,
+   "number": 1067,
+   "progress": 0.03110648148148148,
+   "slots_elapsed": 13438,
    "slots_in_epoch": 432000,
-   "absolute_slot": 460909043,
-   "block_height": 438939425,
-   "transaction_count": 563560994180
+   "absolute_slot": 460957438,
+   "block_height": 438986937,
+   "transaction_count": 563580771151
   },
   "supply": {
-   "total_sol": 636334783,
-   "circulating_sol": 589708682
+   "total_sol": 636396218,
+   "circulating_sol": 589764579
   }
  },
  "alerts": [],
